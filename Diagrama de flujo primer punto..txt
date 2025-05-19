@@ -1,0 +1,27 @@
+Diagrama de flujo
+
+Inicio
+
+Se inician las variables x=1, pares=0, impares=0, total=0
+
+inicia el bucle do while
+
+se suma el total con x (total += x)
+
+se verifica si x es par (x % 2 === 0) si x es par se resta 1 al total  y se agrega x al contador de pares
+
+si x es impar se agrega al contador de impares 
+
+x incremente su valor por cada Iteración haciendo que el bucle pueda procesar información (x++)
+
+(x >= 15) si se cumple la condición, se imprime limite superado y se aplica el break si no 
+
+regresa al inicio del bucle do (x <= 15) si se cumple la condición
+
+se imprime el total 
+
+se imprime el contador de pares procesados 
+
+se imprime el contador de impares procesados 
+
+fin
